@@ -1,0 +1,26 @@
+Rails:
+
+descargar Ruby la que dice Ruby+Devkit 2.5.5-1 (x64)  https://rubyinstaller.org/downloads/
+
+instalamos rails con el comando: gem install rails
+instalamos la basede datos interna con el comando :   gem install sqlite3 -v '1.4.1' --source 'https://rybygems.org/'
+instalamos bundle con el comando:   bundle install
+ponemos el comando :rails server
+ponemos el comando: rails db:migrate
+ponemos el comando :rails db:test:prepare
+nuevamente el comando :rails server
+en otro terminal ponemos el comando rails console
+
+Creamos categoria con su descripcion con el siguiente comando: Category.create! name: "Terror", description: "Descripcion terror"
+Instalamos la extension de chrome Json Viewer
+ingresamos a local host:  http://localhost:3000/api/categories
+
+
+Vue.js:
+
+comando : npm i
+comando :npm install -D pug-plain-loader pug
+comando : npm run serve
+añadir extension Allow CORS: Access-Control-Allow-Origin (esta extension sirve para poder usar dos servidores )
+
+Entramos al local host que nos aparece y listo 
